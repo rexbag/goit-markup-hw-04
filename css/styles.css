@@ -330,10 +330,12 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: calc((100% - 48px) / 3);
 }
-.portfolio-cards:hover .portfolio-cards-cover {
+.portfolio-cards:hover .portfolio-text-cover,
+.portfolio-cards:focus .portfolio-text-cover {
   transform: translateY(0%);
 }
-.portfolio-cards:hover {
+.portfolio-cards:hover,
+.portfolio-cards:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -350,7 +352,7 @@ img {
   letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
-.portfolio-cards-cover {
+.portfolio-text-cover {
   position: absolute;
   top: 0;
   bottom: 0;

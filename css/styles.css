@@ -332,7 +332,7 @@ img {
 }
 .portfolio-cards:hover .portfolio-text-cover,
 .portfolio-cards:focus .portfolio-text-cover {
-  transform: translateY(0%);
+  transform: translateY(0);
 }
 .portfolio-cards:hover,
 .portfolio-cards:focus {

@@ -352,6 +352,7 @@ img {
   letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
+
 .portfolio-text-cover {
   position: absolute;
   top: 0;
@@ -359,14 +360,13 @@ img {
   background-color: #4d5ae5;
   transform: translateY(100%);
   transition-duration: 300ms;
-}
-
-.portfolio-text-cover {
+  padding: 40px 32px;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 40px 32px;
   height: 100%;
+  width: 100%;
 }
 .portfolio-cover-wrap {
   overflow: hidden;

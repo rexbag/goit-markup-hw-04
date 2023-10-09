@@ -331,7 +331,7 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-text-cover {
+.portfolio-p-hidden {
   position: absolute;
   top: 0;
   width: 100%;
@@ -346,16 +346,16 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-cards:hover .portfolio-p-hidden {
+  transform: translateY(0);
+}
+
 .portfolio-cards:hover,
 .portfolio-cards:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-cards:hover .portfolio-text-cover,
-.portfolio-cards:focus .portfolio-text-cover {
-  transform: translateY(0);
-}
 .portfolio-cards-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
